@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Neil Capistrano Web Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Web Portfolio">
+        <meta name="keywords" content="HTML, Portfolio, Neil">
+        <meta name="author" content="Neil Capistrano">
+        <style>
+            h1, h2, h3, h4, h5, h6, p{
+                margin: 0px;
+            }
+            table, thead, tbody, th, tr, td {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- HEADER NAV BAR -->
+        <header>
+            <nav>
+                <a href="#home">Home</a> |
+                <a href="#biography">Biography</a> |
+                <a href="#contact-me">Contact Me</a> 
+            </nav>
+        </header>
+        <!-- HOME/ GREETING PAGE -->
+        <h1 id="home" style="margin:0px">Hello! I'm Neil</h1>
+        <h3 style="margin:0px">I <i>build</i> and <i>develop</i> web applications</h3>
+        <hr>
+        <!-- BIOGRAPHY DIV -->
+        <div style="display: flex;">
+            <!-- BIOGRAPHY SECTION -->
+            <section style="height:100%; display: inline-block;width: 30%;">
+                <h2 id="biography">Biography</h2>
+                <br>
+                <!-- SAIT INFO -->
+                <h4>Web Design Student</h4>
+                <p>September 2023 - Current</p>
+                <br>
+                <p>Studying Interactive Design, with a</p>
+                <p>Web Design and Development Major</p>
+                <br>
+                <p>Core Courses:</p>
+                <ul>
+                    <li>Intermediate User Interface and Experience Design</li>
+                    <li>Web Application Development</li>
+                    <li>Database Programming and Testing</li>
+                    <li>Future of Design</li>
+                </ul>
+            </section>
+            <!-- SAIT IMAGE -->
+            <div style="display: inline-block;width: 400px">
+                <img width="400" src="assets/SAIT.jpg" alt="Heritage Hall">
+                <figcaption>
+                    “Heritage Hall”, by Imre Z. Balint, Licensed under 
+                    <a href="https://creativecommons.org/licenses/by/2.0/deed.en">CC-BY</a>
+                </figcaption>
+            </div>
+        </div>
+        <hr>
+        <!-- CONTACT DIV -->
+        <div style="display: flex;">
+            <!-- CONTACT SECTION -->
+            <section style="height:100%; display: inline-block;width: 30%;">
+                <h4 id="contact-me">Contact Me</h4>
+                <br>
+                <!-- CONTACT INFO TABLE -->
+                <table >
+                    <caption>
+                        Contact information
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th>Website</th>
+                            <th>account</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Google Mail</td>
+                            <td>123@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Yahoo Mail</td>
+                            <td>123@ymail.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <!-- GOODBOY IMAGE-->
+            <div style="display: inline-block;width: 25%;">
+                <div style="width:200px;height:100%;display:inline-block;border: 1px solid black;">
+                    <img width="200" src="assets/Goodboy.png" alt="Goodboy">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- FOOTER -->
+        <footer>
+            <p>© 2023 SAIT IDD</p>
+        </footer>
+    </body>
+</html>
