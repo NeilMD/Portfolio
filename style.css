@@ -1,0 +1,123 @@
+/* initial style */
+body{
+ color: white;
+ background-color: black;  
+ margin: 0; 
+ font-family: 'Lato', sans-serif;
+}
+
+/* header margin */
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+}
+
+/* nav styles */
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    margin: 0 3rem 3rem 3rem;
+    font-size: 2rem;
+    color: silver;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: aqua;
+}
+
+/* contact information style */
+table, thead, tbody, th, tr, td {
+    border: 1px solid white;
+}
+
+/* section style */
+.section-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.section {
+    width: 70%;
+}
+
+/* image style */
+#sait-image{
+   width: 30%;
+}
+
+#goodboy-image{
+   width: 30%;
+}
+
+figcaption {
+    width: 400px;
+}
+
+#goodboy-div{
+    width:200px;
+    height:100%;
+    display:inline-block;
+    border: 1px solid white;
+}
+
+#sait {
+    width: 400px;
+}
+
+#goodboy {
+    width: 200px;
+}
+
+
+/* RESPONSIVE STYLING */
+@media (max-width: 800px) {
+    body{
+        width: fit-content;
+    }
+
+    /* Responsive layout - makes a one column-layout instead of two-column layout */
+    .section-div {
+        flex-direction: column-reverse;
+    }
+    nav a {
+        margin: 0 1rem 1rem 1rem;
+        font-size: 1rem;
+    }
+
+    /* adjust image */
+    figure, #goodboy-image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #sait {
+        width: 200px;
+    }
+
+    figcaption{
+        width: 100%;
+    }
+
+    /* section style */
+    .section-div {
+        width: 100%;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    /* image style */
+    #sait-image{
+    width: 100%;
+    }
+
+    #goodboy-image{
+    width: 100%;
+    }
+}
