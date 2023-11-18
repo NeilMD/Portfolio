@@ -76,6 +76,7 @@ figcaption {
 
 /* RESPONSIVE STYLING */
 @media (max-width: 800px) {
+    /* adjust to width of screen */
     body{
         width: auto;
     }
@@ -84,6 +85,7 @@ figcaption {
     .section-div {
         flex-direction: column-reverse;
     }
+
     nav a {
         margin: 0 1rem 1rem 1rem;
         font-size: 1rem;
@@ -96,6 +98,7 @@ figcaption {
         align-items: center;
         text-align: center;
     }
+
     #sait {
         width: 200px;
     }
@@ -115,10 +118,10 @@ figcaption {
 
     /* image style */
     #sait-image{
-    width: 100%;
+        width: 100%;
     }
 
     #goodboy-image{
-    width: 100%;
+        width: 100%;
     }
 }
