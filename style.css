@@ -58,18 +58,26 @@ figcaption {
     width: 400px;
 }
 
-#goodboy-div{
+#goodboy-div, #games-div{
     width:200px;
     height:100%;
     display:inline-block;
     border: 1px solid white;
 }
 
+.odd {
+    color:red
+}
+
+.even {
+    color: chartreuse;
+}
+
 #sait {
     width: 400px;
 }
 
-#goodboy {
+#goodboy, #games {
     width: 200px;
 }
 
