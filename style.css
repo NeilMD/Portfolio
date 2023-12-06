@@ -58,7 +58,7 @@ figcaption {
     width: 400px;
 }
 
-#goodboy-div, #games-div{
+#goodboy-div, .games-div{
     width:200px;
     height:100%;
     display:inline-block;
@@ -77,7 +77,7 @@ figcaption {
     width: 400px;
 }
 
-#goodboy, #games {
+#goodboy, .games {
     width: 200px;
 }
 
